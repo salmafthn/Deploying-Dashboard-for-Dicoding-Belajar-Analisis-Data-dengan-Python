@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import datetime as dt
 
 def load_data():
-    main_data = pd.read_csv("D:/Python-Workspace/Dicoding/DataAnalysis/dashboard/all_dataset.csv")
+    main_data = pd.read_csv("all_dataset.csv")
     return main_data
 
 def plot_custom_bar_chart(data, title, xlabel, ylabel, rotation=0):
